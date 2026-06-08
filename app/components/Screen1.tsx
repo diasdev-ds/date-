@@ -86,10 +86,10 @@ export default function Screen1({ onYes }: Props) {
         transition={{ delay: 0.15 }}
       >
         <h1 className="text-2xl sm:text-3xl font-extrabold text-rose-400 leading-snug">
-          Пойдешь со мной на свидание?
+          Балнур, пойдешь со мной на свидание?
         </h1>
         <p className="text-sm text-rose-300 font-semibold">
-          Я очень хочу провести время с тобой 🥺
+          Ты же знаешь, что откажешь только если хочешь пожалеть обо всём 😎
         </p>
       </motion.div>
 
