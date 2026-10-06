@@ -20,7 +20,7 @@ export default function DateInvitation() {
   const [step, setStep] = useState<Step>(1);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-rose-50 via-pink-50 to-purple-50 flex items-center justify-center p-4 overflow-hidden">
+    <div className="min-h-dvh bg-gradient-to-br from-rose-50 via-pink-50 to-purple-50 flex items-center justify-center p-4 overflow-hidden">
       <AnimatePresence mode="wait">
         {step === 1 && (
           <motion.div

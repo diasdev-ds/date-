@@ -264,7 +264,7 @@ export default function Questionnaire({ onDone }: Props) {
             exit={{ opacity: 0 }}
             className="text-center text-sm font-bold text-rose-400"
           >
-            Ой, не отправилось 🙈 Проверь интернет и попробуй ещё раз
+            Ой, не отправилось. Проверь интернет и попробуй ещё раз
           </motion.p>
         )}
       </AnimatePresence>
@@ -363,7 +363,7 @@ function TimeStep({
         type="time"
         value={value}
         onChange={(e) => onChange(e.target.value)}
-        className="w-40 text-center text-2xl font-extrabold text-rose-400 rounded-2xl border-2 border-rose-100 bg-white px-4 py-2 focus:outline-none focus:border-rose-300 transition-colors"
+        className="w-40 min-h-12 appearance-none text-center text-2xl font-extrabold text-rose-400 rounded-2xl border-2 border-rose-100 bg-white px-4 py-2 focus:outline-none focus:border-rose-300 transition-colors"
       />
 
       <AnimatePresence>

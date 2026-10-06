@@ -48,7 +48,7 @@ export default function Screen3() {
       )}
 
       <motion.div
-        className="bg-white/85 backdrop-blur-sm rounded-3xl shadow-xl shadow-pink-100 px-8 py-10 flex flex-col items-center gap-6 text-center relative z-50"
+        className="bg-white/85 backdrop-blur-sm rounded-3xl shadow-xl shadow-pink-100 px-6 py-8 sm:px-8 sm:py-10 flex flex-col items-center gap-6 text-center relative z-50"
         initial={{ scale: 0.75, opacity: 0 }}
         animate={{ scale: 1, opacity: 1 }}
         transition={{ type: "spring", stiffness: 180, damping: 14, delay: 0.1 }}
