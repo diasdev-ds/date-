@@ -10,7 +10,7 @@ const nunito = Nunito({
 });
 
 export const metadata: Metadata = {
-  title: "Приглашение на свидание 💕",
+  title: "Приглашение на прогулку ✨",
   description: "Особое приглашение",
 };
 

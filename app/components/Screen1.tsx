@@ -86,7 +86,7 @@ export default function Screen1({ onYes }: Props) {
         transition={{ delay: 0.15 }}
       >
         <h1 className="text-2xl sm:text-3xl font-extrabold text-rose-400 leading-snug">
-          Балнур, пойдешь со мной на свидание?
+          Каусар, пойдешь со мной погулять?
         </h1>
         <p className="text-sm text-rose-300 font-semibold">
           Ты же знаешь, что откажешь только если хочешь пожалеть обо всём 😎
@@ -138,7 +138,7 @@ export default function Screen1({ onYes }: Props) {
           }}
           className="bg-white text-rose-300 font-bold text-base px-6 py-3 rounded-2xl border-2 border-rose-200 shadow-md cursor-default select-none"
         >
-          Нет 🙈
+          Нет 🙄
         </motion.button>
       )}
     </div>

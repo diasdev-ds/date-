@@ -95,7 +95,10 @@ export default function Screen3() {
             Договорились! Я всё организую.
           </h2>
           <p className="text-lg font-bold text-pink-400">
-            С нетерпением жду встречи! ❤️
+            С нетерпением жду встречи! 😊
+          </p>
+          <p className="text-sm font-semibold text-rose-300">
+            Твои ответы уже у меня 💌
           </p>
         </motion.div>
 
@@ -107,7 +110,7 @@ export default function Screen3() {
           transition={{ delay: 0.6 }}
         >
           <p className="text-rose-400 font-extrabold text-xl italic tracking-wide">
-            С любовью, Диас
+            Диас
           </p>
           <p className="text-2xl">💌</p>
         </motion.div>
